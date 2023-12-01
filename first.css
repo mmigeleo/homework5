@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.headline{
+    background-color: black;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+div.bottomline{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+div.info{
+    color: white;
+    background-color: crimson;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+}
