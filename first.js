@@ -6,17 +6,17 @@ let outcome;
 
 if (bmi<18) {
     outcome = 'Siz, ceki azligindan eziyyet chekirsiniz';
-} else if (18<=bmi<20) {
+} else if (18<=bmi && bmi<20) {
     outcome = 'Sizin chekiniz azdir. Lakin saglamliq uchun zereli deyil';
-} else if (20<=bmi<26) {
+} else if (20<=bmi && bmi<26) {
     outcome = 'Sizin chekiniz normaldir. Tebrikler!!!';
-} else if (26<=bmi<28) {
+} else if (26<=bmi && bmi<28) {
     outcome = 'Sizin artiq chekiniz var';   
-} else if (28<=bmi<31) {
+} else if (28<=bmi && bmi<31) {
     outcome = 'Siz, 1-ci dereceli artiq chekiden eziyet chekirziniz';
-} else if (31<=bmi<36) {
+} else if (31<=bmi && bmi<36) {
     outcome = 'Siz, 2-ci dereceli artiq chekiden eziyet chekirziniz';
-} else if (36<=bmi<41) {
+} else if (36<=bmi && bmi<41) {
     outcome = 'Siz, 3-ci dereceli artiq chekiden eziyet chekirziniz';
 } else if (bmi>=41) {
     outome = 'Siz, 4-ci dereceli artiq chekiden eziyet chekirziniz';
